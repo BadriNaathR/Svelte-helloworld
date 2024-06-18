@@ -3,7 +3,7 @@
 
     const handle = () =>{
         console.log("Placing order");
-        goto('/products')
+        goto('/products' , {replaceState : true});
     }
 </script>
 
